@@ -1,0 +1,7 @@
+enum PrivatePage{
+  CHOOSE_DAY_HOUR,
+  CHANGE_COACH,
+  RENEW_PT_COURSE,
+  SEND_SMS_TO_COACH,
+
+}
