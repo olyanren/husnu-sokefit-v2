@@ -1,9 +1,9 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/blocs/pt/private_user_event.dart';
-import 'package:crossfit/blocs/user/user_event.dart';
-import 'package:crossfit/repositories/pt/private_user_repository.dart';
-import 'package:crossfit/repositories/user_repository.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/blocs/pt/private_user_event.dart';
+import 'package:sokefit/blocs/user/user_event.dart';
+import 'package:sokefit/repositories/pt/private_user_repository.dart';
+import 'package:sokefit/repositories/user_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class PrivateUserBloc extends BaseBloc {

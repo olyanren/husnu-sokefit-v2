@@ -1,8 +1,8 @@
-import 'package:crossfit/constants/constants.dart';
-import 'package:crossfit/helpers/api_helper.dart';
-import 'package:crossfit/models/course_response_model.dart';
-import 'package:crossfit/models/pt/hour_model.dart';
-import 'package:crossfit/models/pt/private_coach_course_response_model.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/helpers/api_helper.dart';
+import 'package:sokefit/models/course_response_model.dart';
+import 'package:sokefit/models/pt/hour_model.dart';
+import 'package:sokefit/models/pt/private_coach_course_response_model.dart';
 
 /*
 This class is us

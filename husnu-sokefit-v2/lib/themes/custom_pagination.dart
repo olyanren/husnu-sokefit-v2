@@ -1,6 +1,6 @@
-import 'package:crossfit/blocs/pagination_bloc.dart';
-import 'package:crossfit/models/pagination_model.dart';
-import 'package:crossfit/themes/custom_progress_bar.dart';
+import 'package:sokefit/blocs/pagination_bloc.dart';
+import 'package:sokefit/models/pagination_model.dart';
+import 'package:sokefit/themes/custom_progress_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 //https://medium.com/@diegoveloper/flutter-lets-know-the-scrollcontroller-and-scrollnotification-652b2685a4ac

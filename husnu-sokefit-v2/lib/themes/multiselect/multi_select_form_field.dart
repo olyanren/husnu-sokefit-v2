@@ -1,5 +1,5 @@
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/themes/multiselect/multi_select_dialog_item.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/themes/multiselect/multi_select_dialog_item.dart';
 import 'package:flutter/material.dart';
 
 class MultiSelectFormField extends FormField<dynamic> {

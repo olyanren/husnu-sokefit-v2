@@ -1,9 +1,9 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/constants/constants.dart';
-import 'package:crossfit/helpers/database_helper.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/repositories/user_repository.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/helpers/database_helper.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/repositories/user_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 import 'login_event.dart';

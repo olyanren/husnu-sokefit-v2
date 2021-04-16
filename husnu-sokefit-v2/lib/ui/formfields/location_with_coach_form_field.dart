@@ -1,10 +1,10 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc_builder.dart';
-import 'package:crossfit/blocs/refresh_bloc.dart';
-import 'package:crossfit/models/coach_model.dart';
-import 'package:crossfit/models/location_model.dart';
-import 'package:crossfit/ui/base_bloc_screen.dart';
-import 'package:crossfit/ui/formfields/location_form_field.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc_builder.dart';
+import 'package:sokefit/blocs/refresh_bloc.dart';
+import 'package:sokefit/models/coach_model.dart';
+import 'package:sokefit/models/location_model.dart';
+import 'package:sokefit/ui/base_bloc_screen.dart';
+import 'package:sokefit/ui/formfields/location_form_field.dart';
 import 'package:flutter/cupertino.dart';
 
 import 'coach_form_field.dart';

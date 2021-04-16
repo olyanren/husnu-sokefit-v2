@@ -1,5 +1,5 @@
-import 'package:crossfit/models/pagination_model.dart';
-import 'package:crossfit/models/user_summary.dart';
+import 'package:sokefit/models/pagination_model.dart';
+import 'package:sokefit/models/user_summary.dart';
 
 class UserPaginationModel extends PaginationModel<UserSummary> {
 

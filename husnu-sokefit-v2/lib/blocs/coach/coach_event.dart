@@ -1,4 +1,4 @@
-import 'package:crossfit/blocs/api_event.dart';
+import 'package:sokefit/blocs/api_event.dart';
 
 
 class CoachDeleteEvent extends ApiEvent{

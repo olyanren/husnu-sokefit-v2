@@ -1,17 +1,17 @@
 import 'dart:math';
 
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc_builder.dart';
-import 'package:crossfit/blocs/pt/private_score_bloc.dart';
-import 'package:crossfit/blocs/pt/private_user_bloc.dart';
-import 'package:crossfit/blocs/pt/private_user_event.dart';
-import 'package:crossfit/blocs/user/user_photo_bloc.dart';
-import 'package:crossfit/helpers/dialog_prompt_helper.dart';
-import 'package:crossfit/helpers/string_helper.dart';
-import 'package:crossfit/models/pt/private_score_model.dart';
-import 'package:crossfit/models/pt/private_user_summary_model.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/themes/colors.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc_builder.dart';
+import 'package:sokefit/blocs/pt/private_score_bloc.dart';
+import 'package:sokefit/blocs/pt/private_user_bloc.dart';
+import 'package:sokefit/blocs/pt/private_user_event.dart';
+import 'package:sokefit/blocs/user/user_photo_bloc.dart';
+import 'package:sokefit/helpers/dialog_prompt_helper.dart';
+import 'package:sokefit/helpers/string_helper.dart';
+import 'package:sokefit/models/pt/private_score_model.dart';
+import 'package:sokefit/models/pt/private_user_summary_model.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/themes/colors.dart';
 
 import '../../base_screen.dart';
 import '../base_pt_screen.dart';
@@ -19,11 +19,11 @@ import '../private_send_notification_to_coach_screen.dart';
 import '../private_send_sms_to_coach_screen.dart';
 import '../pt_course_list_screen.dart';
 
-import 'package:crossfit/themes/custom_progress_bar.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/ui/base_user_screen.dart';
-import 'package:crossfit/ui/formfields/user_photo_field.dart';
-import 'package:crossfit/ui/pt/pt_purchased_items_screen.dart';
+import 'package:sokefit/themes/custom_progress_bar.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/ui/base_user_screen.dart';
+import 'package:sokefit/ui/formfields/user_photo_field.dart';
+import 'package:sokefit/ui/pt/pt_purchased_items_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

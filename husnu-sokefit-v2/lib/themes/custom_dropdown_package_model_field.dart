@@ -1,7 +1,7 @@
-import 'package:crossfit/models/base_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/themes/size_config.dart';
+import 'package:sokefit/models/base_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/themes/size_config.dart';
 import 'package:flutter/material.dart';
 
 class CustomDropdownPackageModelField<T extends BaseModel>

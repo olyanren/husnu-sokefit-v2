@@ -1,4 +1,4 @@
-import 'package:crossfit/models/base_model.dart';
+import 'package:sokefit/models/base_model.dart';
 
 class HourModel extends BaseModel{
   String hour;

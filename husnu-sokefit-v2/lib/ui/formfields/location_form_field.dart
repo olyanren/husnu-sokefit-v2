@@ -1,14 +1,14 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc_builder.dart';
-import 'package:crossfit/blocs/coach/coach_bloc.dart';
-import 'package:crossfit/blocs/location/location_bloc.dart';
-import 'package:crossfit/blocs/location/location_event.dart';
-import 'package:crossfit/constants/constants.dart';
-import 'package:crossfit/models/coach_model.dart';
-import 'package:crossfit/models/location_model.dart';
-import 'package:crossfit/themes/custom_dropdown_base_model_field.dart';
-import 'package:crossfit/themes/custom_progress_bar.dart';
-import 'package:crossfit/ui/base_bloc_screen.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc_builder.dart';
+import 'package:sokefit/blocs/coach/coach_bloc.dart';
+import 'package:sokefit/blocs/location/location_bloc.dart';
+import 'package:sokefit/blocs/location/location_event.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/models/coach_model.dart';
+import 'package:sokefit/models/location_model.dart';
+import 'package:sokefit/themes/custom_dropdown_base_model_field.dart';
+import 'package:sokefit/themes/custom_progress_bar.dart';
+import 'package:sokefit/ui/base_bloc_screen.dart';
 import 'package:flutter/cupertino.dart';
 
 class LocationFormField extends BaseBlocScreen {

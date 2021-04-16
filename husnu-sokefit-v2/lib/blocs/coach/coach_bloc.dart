@@ -1,8 +1,8 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/blocs/coach/coach_event.dart';
-import 'package:crossfit/models/coach_model.dart';
-import 'package:crossfit/repositories/user_repository.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/blocs/coach/coach_event.dart';
+import 'package:sokefit/models/coach_model.dart';
+import 'package:sokefit/repositories/user_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class CoachBloc extends BaseBloc {

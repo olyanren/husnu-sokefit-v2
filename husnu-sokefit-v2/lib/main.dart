@@ -1,13 +1,15 @@
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_future_builder.dart';
-import 'package:crossfit/themes/custom_progress_bar.dart';
-import 'package:crossfit/themes/size_config.dart';
-import 'package:crossfit/ui/login_screen.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_future_builder.dart';
+import 'package:sokefit/themes/custom_progress_bar.dart';
+import 'package:sokefit/themes/size_config.dart';
+import 'package:sokefit/ui/login_screen.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'ui/video_player_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -56,14 +58,14 @@ class MyApp extends StatelessWidget {
         // for others(Android, Fuchsia)
         cursorColor:  CustomColors.primary,
       ),
-      //home: VideoPlayerScreen(),
-      home: CustomFutureBuilder(
+      home: VideoPlayerScreen(),
+      /*home: CustomFutureBuilder(
           initialData: false,
           future: checkIntroShowed(context),
           // this is where the magic happens
           rememberFutureResult: true,
           whenDone: (bool isIntroShowed) => whenDoneResult(isIntroShowed),
-          whenNotDone: (BuildContext context) => whenNotDoneResult(context)),
+          whenNotDone: (BuildContext context) => whenNotDoneResult(context)),*/
     );
   }
 

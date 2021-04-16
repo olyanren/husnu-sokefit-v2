@@ -1,5 +1,5 @@
-import 'package:crossfit/models/api_response_model.dart';
-import 'package:crossfit/models/pagination_model.dart';
+import 'package:sokefit/models/api_response_model.dart';
+import 'package:sokefit/models/pagination_model.dart';
 
 abstract class ApiEvent{
   String message;

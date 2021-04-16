@@ -1,8 +1,8 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/constants/constants.dart';
-import 'package:crossfit/helpers/api_helper.dart';
-import 'package:crossfit/models/api_response_model.dart';
-import 'package:crossfit/models/pt/private_package_model.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/helpers/api_helper.dart';
+import 'package:sokefit/models/api_response_model.dart';
+import 'package:sokefit/models/pt/private_package_model.dart';
 
 /*
 This class is us

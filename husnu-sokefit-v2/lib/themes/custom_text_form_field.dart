@@ -1,5 +1,5 @@
 
-import 'package:crossfit/themes/size_config.dart';
+import 'package:sokefit/themes/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

@@ -1,9 +1,9 @@
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/ui/base_screen.dart';
-import 'package:crossfit/ui/login_screen.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/ui/base_screen.dart';
+import 'package:sokefit/ui/login_screen.dart';
 
-import 'package:crossfit/ui/pt/pt_register_form.dart';
+import 'package:sokefit/ui/pt/pt_register_form.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

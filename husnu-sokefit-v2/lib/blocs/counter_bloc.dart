@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:crossfit/blocs/bloc.dart';
+import 'package:sokefit/blocs/bloc.dart';
 
 import 'counter_event.dart';
 /// More Detail:

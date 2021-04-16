@@ -1,5 +1,5 @@
-import 'package:crossfit/models/pagination_model.dart';
-import 'package:crossfit/models/pt/pt_admin_private_register_model.dart';
+import 'package:sokefit/models/pagination_model.dart';
+import 'package:sokefit/models/pt/pt_admin_private_register_model.dart';
 
 class PrivateAdminPrivateRegisterPaginationModel
     extends PaginationModel<PrivateAdminPrivateRegisterModel> {

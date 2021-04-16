@@ -1,5 +1,5 @@
-import 'package:crossfit/models/coach_model.dart';
-import 'package:crossfit/models/user_model.dart';
+import 'package:sokefit/models/coach_model.dart';
+import 'package:sokefit/models/user_model.dart';
 
 class PrivateCoachCourseResponseModel {
   int id;

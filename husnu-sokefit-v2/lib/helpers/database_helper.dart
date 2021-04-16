@@ -1,5 +1,5 @@
-import 'package:crossfit/models/image_model.dart';
-import 'package:crossfit/models/user_model.dart';
+import 'package:sokefit/models/image_model.dart';
+import 'package:sokefit/models/user_model.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 

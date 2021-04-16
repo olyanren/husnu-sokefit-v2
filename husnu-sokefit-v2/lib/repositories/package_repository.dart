@@ -1,6 +1,6 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/models/package_model.dart';
-import 'package:crossfit/providers/package_provider.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/models/package_model.dart';
+import 'package:sokefit/providers/package_provider.dart';
 
 /*
 This class is us

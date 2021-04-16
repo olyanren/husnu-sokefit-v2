@@ -1,5 +1,5 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/models/user_model.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/models/user_model.dart';
 
 class LoginInitializedEvent extends ApiEvent{}
 class LoginInitializeFinishedEvent extends ApiEvent{

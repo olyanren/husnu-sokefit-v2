@@ -1,5 +1,5 @@
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/repositories/pt/coach_course_repository.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/repositories/pt/coach_course_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../api_event.dart';

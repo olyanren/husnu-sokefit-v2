@@ -1,5 +1,5 @@
-import 'package:crossfit/helpers/alert_helper.dart';
-import 'package:crossfit/helpers/loading_helper.dart';
+import 'package:sokefit/helpers/alert_helper.dart';
+import 'package:sokefit/helpers/loading_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

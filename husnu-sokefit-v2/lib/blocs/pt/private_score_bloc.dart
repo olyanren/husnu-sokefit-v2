@@ -1,7 +1,7 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/blocs/pt/private_score_event.dart';
-import 'package:crossfit/repositories/pt/private_score_repository.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/blocs/pt/private_score_event.dart';
+import 'package:sokefit/repositories/pt/private_score_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 class PrivateScoreBloc extends BaseBloc {

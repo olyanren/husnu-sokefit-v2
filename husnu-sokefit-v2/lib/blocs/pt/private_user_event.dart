@@ -1,7 +1,7 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/models/pt/private_admin_summary_model.dart';
-import 'package:crossfit/models/pt/private_coach_summary_model.dart';
-import 'package:crossfit/models/pt/private_user_summary_model.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/models/pt/private_admin_summary_model.dart';
+import 'package:sokefit/models/pt/private_coach_summary_model.dart';
+import 'package:sokefit/models/pt/private_user_summary_model.dart';
 
 class PrivateUserSummaryEvent extends ApiEvent{
   int coachId;

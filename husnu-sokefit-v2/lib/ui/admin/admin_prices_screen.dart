@@ -1,14 +1,14 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc_builder.dart';
-import 'package:crossfit/blocs/package/package_bloc.dart';
-import 'package:crossfit/blocs/package/package_event.dart';
-import 'package:crossfit/helpers/dialog_confirm_helper.dart';
-import 'package:crossfit/models/package_model.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_progress_bar_wave.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/ui/base_user_screen.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc_builder.dart';
+import 'package:sokefit/blocs/package/package_bloc.dart';
+import 'package:sokefit/blocs/package/package_event.dart';
+import 'package:sokefit/helpers/dialog_confirm_helper.dart';
+import 'package:sokefit/models/package_model.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_progress_bar_wave.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/ui/base_user_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

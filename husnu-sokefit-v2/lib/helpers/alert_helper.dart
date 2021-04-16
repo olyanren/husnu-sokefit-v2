@@ -1,7 +1,7 @@
-import 'package:crossfit/helpers/toast_helper.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/themes/size_config.dart';
+import 'package:sokefit/helpers/toast_helper.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/themes/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/style.dart';

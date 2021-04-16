@@ -1,5 +1,5 @@
-import 'package:crossfit/models/api_response_model.dart';
-import 'package:crossfit/providers/pt/private_schedule_provider.dart';
+import 'package:sokefit/models/api_response_model.dart';
+import 'package:sokefit/providers/pt/private_schedule_provider.dart';
 
 /*
 This class is us

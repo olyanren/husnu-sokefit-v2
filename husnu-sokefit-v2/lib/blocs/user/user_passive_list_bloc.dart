@@ -1,5 +1,5 @@
-import 'package:crossfit/blocs/user/user_event.dart';
-import 'package:crossfit/blocs/user/user_summary_bloc.dart';
+import 'package:sokefit/blocs/user/user_event.dart';
+import 'package:sokefit/blocs/user/user_summary_bloc.dart';
 
 class UserPassiveListBloc extends UserSummaryBloc {
 

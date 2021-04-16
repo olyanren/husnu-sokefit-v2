@@ -1,7 +1,7 @@
-import 'package:crossfit/constants/constants.dart';
-import 'package:crossfit/helpers/api_helper.dart';
-import 'package:crossfit/models/pagination_model.dart';
-import 'package:crossfit/models/pt/private_admin_private_register_pagination_model.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/helpers/api_helper.dart';
+import 'package:sokefit/models/pagination_model.dart';
+import 'package:sokefit/models/pt/private_admin_private_register_pagination_model.dart';
 
 /*
 This class is us

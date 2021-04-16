@@ -1,9 +1,9 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/blocs/pt/private_purchase_event.dart';
-import 'package:crossfit/models/pagination_model.dart';
-import 'package:crossfit/models/pt/private_coach_purchase_pagination_model.dart';
-import 'package:crossfit/repositories/pt/private_coach_purchased_item_repository.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/blocs/pt/private_purchase_event.dart';
+import 'package:sokefit/models/pagination_model.dart';
+import 'package:sokefit/models/pt/private_coach_purchase_pagination_model.dart';
+import 'package:sokefit/repositories/pt/private_coach_purchased_item_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../pagination_bloc.dart';

@@ -1,7 +1,7 @@
-import 'package:crossfit/blocs/counter_bloc_rxdart.dart';
-import 'package:crossfit/blocs/location/location_bloc.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/ui/base_screen.dart';
+import 'package:sokefit/blocs/counter_bloc_rxdart.dart';
+import 'package:sokefit/blocs/location/location_bloc.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/ui/base_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

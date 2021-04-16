@@ -1,4 +1,4 @@
-import 'package:crossfit/themes/colors.dart';
+import 'package:sokefit/themes/colors.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_text.dart';

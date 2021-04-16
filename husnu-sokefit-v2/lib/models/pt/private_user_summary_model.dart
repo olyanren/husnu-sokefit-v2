@@ -1,4 +1,4 @@
-import 'package:crossfit/models/pt/private_score_model.dart';
+import 'package:sokefit/models/pt/private_score_model.dart';
 
 class PrivateUserSummaryModel {
   String registerDate;

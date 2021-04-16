@@ -1,12 +1,12 @@
-import 'package:crossfit/constants/constants.dart';
-import 'package:crossfit/helpers/date_helper.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_flat_button.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/ui/base_screen.dart';
-import 'package:crossfit/ui/payment_screen.dart';
-import 'package:crossfit/ui/user_info_screen.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/helpers/date_helper.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_flat_button.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/ui/base_screen.dart';
+import 'package:sokefit/ui/payment_screen.dart';
+import 'package:sokefit/ui/user_info_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

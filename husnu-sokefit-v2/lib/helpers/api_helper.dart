@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:crossfit/models/api_response_model.dart';
+import 'package:sokefit/models/api_response_model.dart';
 import 'package:dio/dio.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ApiHelper {
-  static const String BASE_PATH = "https://api.crossfitbackstreet.com";
+  static const String BASE_PATH = "http://api2.sokefit.com";
   // static const String BASE_PATH = "http://10.0.2.2:8000";
   static const String API_PATH = "/api/v1";
 

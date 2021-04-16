@@ -1,7 +1,7 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/models/course_response_model.dart';
-import 'package:crossfit/models/pt/hour_model.dart';
-import 'package:crossfit/models/pt/private_coach_course_response_model.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/models/course_response_model.dart';
+import 'package:sokefit/models/pt/hour_model.dart';
+import 'package:sokefit/models/pt/private_coach_course_response_model.dart';
 
 class StoreCourseEvent extends ApiEvent{
   int coachId;

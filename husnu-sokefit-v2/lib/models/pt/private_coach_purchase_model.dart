@@ -1,4 +1,4 @@
-import 'package:crossfit/models/user_model.dart';
+import 'package:sokefit/models/user_model.dart';
 
 class PrivateCoachPurchaseModel {
   int id;

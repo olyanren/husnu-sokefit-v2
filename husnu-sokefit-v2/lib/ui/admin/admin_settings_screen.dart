@@ -1,13 +1,13 @@
-import 'package:crossfit/constants/screen_type.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/themes/size_config.dart';
-import 'package:crossfit/ui/admin/admin_prices_screen.dart';
-import 'package:crossfit/ui/admin/onesignal_screen.dart';
-import 'package:crossfit/ui/admin/sms_screen.dart';
-import 'package:crossfit/ui/admin/wod_hours_create_screen.dart';
-import 'package:crossfit/ui/base_user_screen.dart';
+import 'package:sokefit/constants/screen_type.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/themes/size_config.dart';
+import 'package:sokefit/ui/admin/admin_prices_screen.dart';
+import 'package:sokefit/ui/admin/onesignal_screen.dart';
+import 'package:sokefit/ui/admin/sms_screen.dart';
+import 'package:sokefit/ui/admin/wod_hours_create_screen.dart';
+import 'package:sokefit/ui/base_user_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

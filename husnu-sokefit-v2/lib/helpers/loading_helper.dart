@@ -1,5 +1,5 @@
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_text.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

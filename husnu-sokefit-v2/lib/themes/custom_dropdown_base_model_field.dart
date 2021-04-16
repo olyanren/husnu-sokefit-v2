@@ -1,5 +1,5 @@
-import 'package:crossfit/models/base_model.dart';
-import 'package:crossfit/themes/size_config.dart';
+import 'package:sokefit/models/base_model.dart';
+import 'package:sokefit/themes/size_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

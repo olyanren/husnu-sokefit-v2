@@ -1,4 +1,4 @@
-import 'package:crossfit/ui/base_bloc_screen.dart';
+import 'package:sokefit/ui/base_bloc_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'bloc.dart';

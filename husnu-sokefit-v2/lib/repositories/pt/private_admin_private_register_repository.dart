@@ -1,5 +1,5 @@
-import 'package:crossfit/models/pagination_model.dart';
-import 'package:crossfit/providers/pt/private_admin_private_register_provider.dart';
+import 'package:sokefit/models/pagination_model.dart';
+import 'package:sokefit/providers/pt/private_admin_private_register_provider.dart';
 
 /*
 This class is us

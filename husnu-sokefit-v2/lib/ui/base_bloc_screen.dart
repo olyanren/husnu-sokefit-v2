@@ -1,6 +1,6 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/helpers/alert_helper.dart';
-import 'package:crossfit/helpers/snackbar_helper.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/helpers/alert_helper.dart';
+import 'package:sokefit/helpers/snackbar_helper.dart';
 import 'package:flutter/cupertino.dart';
 
 abstract class BaseBlocScreen extends StatelessWidget{

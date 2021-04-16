@@ -1,6 +1,6 @@
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/blocs/package/package_event.dart';
-import 'package:crossfit/repositories/pt/private_package_repository.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/blocs/package/package_event.dart';
+import 'package:sokefit/repositories/pt/private_package_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../api_event.dart';

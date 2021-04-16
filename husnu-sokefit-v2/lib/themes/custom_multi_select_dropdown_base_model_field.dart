@@ -1,5 +1,5 @@
-import 'package:crossfit/models/base_model.dart';
-import 'package:crossfit/themes/multiselect/multi_select_form_field.dart';
+import 'package:sokefit/models/base_model.dart';
+import 'package:sokefit/themes/multiselect/multi_select_form_field.dart';
 import 'package:flutter/material.dart';
 
 class CustomMultiSelectDropdownBaseModelField<T extends BaseModel>

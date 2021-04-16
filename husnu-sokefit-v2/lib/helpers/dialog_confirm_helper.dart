@@ -1,9 +1,9 @@
-import 'package:crossfit/models/today_hour_model.dart';
-import 'package:crossfit/models/user_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/themes/size_config.dart';
-import 'package:crossfit/ui/formfields/private_users_form_field.dart';
+import 'package:sokefit/models/today_hour_model.dart';
+import 'package:sokefit/models/user_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/themes/size_config.dart';
+import 'package:sokefit/ui/formfields/private_users_form_field.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

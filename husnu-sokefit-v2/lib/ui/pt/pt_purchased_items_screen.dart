@@ -1,14 +1,14 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/blocs/bloc_builder.dart';
-import 'package:crossfit/blocs/pt/private_purchase_bloc.dart';
-import 'package:crossfit/helpers/date_helper.dart';
-import 'package:crossfit/models/pt/private_purchase_model.dart';
-import 'package:crossfit/models/pt/purchase_pagination_model.dart';
-import 'package:crossfit/themes/colors.dart';
-import 'package:crossfit/themes/custom_pagination.dart';
-import 'package:crossfit/themes/custom_progress_bar_wave.dart';
-import 'package:crossfit/themes/custom_text.dart';
-import 'package:crossfit/ui/base_user_screen.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/blocs/bloc_builder.dart';
+import 'package:sokefit/blocs/pt/private_purchase_bloc.dart';
+import 'package:sokefit/helpers/date_helper.dart';
+import 'package:sokefit/models/pt/private_purchase_model.dart';
+import 'package:sokefit/models/pt/purchase_pagination_model.dart';
+import 'package:sokefit/themes/colors.dart';
+import 'package:sokefit/themes/custom_pagination.dart';
+import 'package:sokefit/themes/custom_progress_bar_wave.dart';
+import 'package:sokefit/themes/custom_text.dart';
+import 'package:sokefit/ui/base_user_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,5 +1,5 @@
-import 'package:crossfit/models/score_model.dart';
-import 'package:crossfit/providers/score_provider.dart';
+import 'package:sokefit/models/score_model.dart';
+import 'package:sokefit/providers/score_provider.dart';
 
 /*
 This class is us

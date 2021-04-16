@@ -1,5 +1,5 @@
-import 'package:crossfit/blocs/api_event.dart';
-import 'package:crossfit/models/pt/hour_model.dart';
+import 'package:sokefit/blocs/api_event.dart';
+import 'package:sokefit/models/pt/hour_model.dart';
 class LoadPurchasedItemsEvent extends ApiEvent{
   int page;
   int itemCount;

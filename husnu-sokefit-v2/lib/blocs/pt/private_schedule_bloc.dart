@@ -1,7 +1,7 @@
-import 'package:crossfit/blocs/bloc.dart';
-import 'package:crossfit/blocs/pt/private_admin_events.dart';
-import 'package:crossfit/blocs/pt/private_schedule_event.dart';
-import 'package:crossfit/repositories/pt/private_schedule_repository.dart';
+import 'package:sokefit/blocs/bloc.dart';
+import 'package:sokefit/blocs/pt/private_admin_events.dart';
+import 'package:sokefit/blocs/pt/private_schedule_event.dart';
+import 'package:sokefit/repositories/pt/private_schedule_repository.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../api_event.dart';
