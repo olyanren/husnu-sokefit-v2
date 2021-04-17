@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       navigatorKey: navigatorKey,
       debugShowCheckedModeBanner: false,
-      title: 'Crossfit Backstreet',
+      title: 'Söke Fit',
       theme: ThemeData(
         appBarTheme: AppBarTheme(brightness: Brightness.dark,),
 
@@ -58,14 +58,14 @@ class MyApp extends StatelessWidget {
         // for others(Android, Fuchsia)
         cursorColor:  CustomColors.primary,
       ),
-      home: VideoPlayerScreen(),
-      /*home: CustomFutureBuilder(
+
+      home: CustomFutureBuilder(
           initialData: false,
           future: checkIntroShowed(context),
           // this is where the magic happens
           rememberFutureResult: true,
           whenDone: (bool isIntroShowed) => whenDoneResult(isIntroShowed),
-          whenNotDone: (BuildContext context) => whenNotDoneResult(context)),*/
+          whenNotDone: (BuildContext context) => whenNotDoneResult(context)),
     );
   }
 
@@ -81,6 +81,6 @@ class MyApp extends StatelessWidget {
   }
 
   whenDoneResult(bool isIntroShowed) {
-    return isIntroShowed ? LoginScreen() : Container();
+    return isIntroShowed ? VideoPlayerScreen() : Container();
   }
 }

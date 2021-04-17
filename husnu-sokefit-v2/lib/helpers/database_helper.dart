@@ -8,7 +8,7 @@ class DatabaseHelper {
   Future<Database> getDatabase() async {
     return openDatabase(
       // Set the path to the database.
-      join(await getDatabasesPath(), 'crossfit.db'),
+      join(await getDatabasesPath(), 'sokefit.db'),
 
       onCreate: (db, version) {
         return db.execute(

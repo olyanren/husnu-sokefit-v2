@@ -321,7 +321,7 @@ class PrivateAdminPrivateRegisterScreen extends BaseUserScreen {
                   'Sayın ${item.account}, ${result.data} müsaittir. '
                   'Randevu alabilirsiniz. '
                   'Android: https://play.google.com/store/apps/details?id=$packageName,'
-                      ' IOS: https://apps.apple.com/us/app/crossfit-backstreet/id1508289944');
+                      ' IOS: https://apps.apple.com/app/soke-fit/id1522146546');
             });
           }
         });

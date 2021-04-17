@@ -194,7 +194,7 @@ class UserActiveScreen extends BaseUserScreen {
         _smsBloc.sendSms(userSummary.id.toString(),
             'Sayın ${userSummary.name}, Üyeliğiniz ${userSummary.remainingDay} '
                 'gün sonra bitecektir. '
-                'Üyeliğinizi Crossfit Backstreet uygulamamız üzerinden yenileyebilirsiniz.');
+                'Üyeliğinizi Söke Fit uygulamamız üzerinden yenileyebilirsiniz.');
       }
     });
   }

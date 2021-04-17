@@ -1,4 +1,4 @@
-package com.codesenior.crossfit
+package com.codesenior.sokefit
 
 import io.flutter.embedding.android.FlutterActivity
 

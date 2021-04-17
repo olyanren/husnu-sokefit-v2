@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sokefit/constants/constants.dart';
+import 'package:sokefit/helpers/api_helper.dart';
 import 'package:video_player/video_player.dart';
 
 import 'login_screen.dart';
@@ -20,7 +22,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     // offers several different constructors to play videos from assets, files,
     // or the internet.
     _controller = VideoPlayerController.network(
-        'https://api.crossfitbackstreet.com/uploads/TDJSRj2Tn94IFNZL1iUtUGLdUiS11WOP8N50kRWh.mp4')
+        ApiHelper.BASE_PATH + '/mobile-video/splash.mp4')
       ..initialize().then((_) {
         _controller.play();
         _controller.setLooping(false);
@@ -34,7 +36,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
   checkVideo() {
     if (_controller.value.initialized &&
-        _controller.value.position > Duration(microseconds: 6130000)) {
+        _controller.value.position > Duration(seconds: 8)) {
       goToLogin();
     }
   }

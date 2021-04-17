@@ -376,9 +376,9 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 3.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesenior.crossfit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesenior.sokefit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Husnu Crossfit";
+				PROVISIONING_PROFILE_SPECIFIER = "Husnu Sokefit";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -518,9 +518,9 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 3.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesenior.crossfit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesenior.sokefit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Husnu Crossfit";
+				PROVISIONING_PROFILE_SPECIFIER = "Husnu Sokefit";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -554,9 +554,9 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 3.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesenior.crossfit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesenior.sokefit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Husnu Crossfit";
+				PROVISIONING_PROFILE_SPECIFIER = "Husnu Sokefit";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
