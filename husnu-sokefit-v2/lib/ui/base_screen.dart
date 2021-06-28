@@ -57,7 +57,7 @@ abstract class BaseScreen extends BaseBlocScreen {
 
   Widget body(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: appBarHeight),
+      padding: const EdgeInsets.only(top: appBarHeight+30),
       child: Container(
         color: Colors.transparent,
         child: innerBody(context),
