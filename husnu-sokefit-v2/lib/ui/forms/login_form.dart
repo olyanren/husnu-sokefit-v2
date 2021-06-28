@@ -59,7 +59,7 @@ class _LoginFormState extends State<LoginForm> {
     // Build a Form widget using the _formKey created above.
     return Center(
       child: Padding(
-          padding: const EdgeInsets.only(left: 58.0, right: 58.00),
+          padding: const EdgeInsets.only(left: 28.0, right: 28.00),
           child: Form(
               key: _formKey,
               child: Column(

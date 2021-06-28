@@ -40,6 +40,15 @@ class LoginScreen extends BaseScreen {
       ],
     );
   }
+  Widget body(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(top:30),
+      child: Container(
+        color: Colors.transparent,
+        child: innerBody(context),
+      ),
+    );
+  }
   Widget appbar(BuildContext context) {
     return AppBar(
       backgroundColor: Colors.transparent,
