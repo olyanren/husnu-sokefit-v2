@@ -2,14 +2,13 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
+import 'package:sokefit/constants/constants.dart';
 import 'package:sokefit/models/api_response_model.dart';
 import 'package:dio/dio.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ApiHelper {
-  static const String BASE_PATH = "http://api2.sokefit.com";
-  // static const String BASE_PATH = "http://10.0.2.2:8000";
-  static const String API_PATH = "/api/v1";
+
 
   Future<ApiResponseModel> request(String url,
       {Map<String, String> queryParameters,
@@ -115,14 +114,14 @@ class ApiHelper {
 
   String _getUrl(String relativePath, {useApiPrefix = true, params}) {
     if (!relativePath.startsWith("/")) relativePath = '/' + relativePath;
-    var uri = BASE_PATH.startsWith("https://")
+    var uri = Constants.BASE_PATH.startsWith("https://")
         ? Uri.https(
-            BASE_PATH.substring("https://".length),
-            useApiPrefix == true ? (API_PATH + relativePath) : relativePath,
+        Constants.BASE_PATH.substring("https://".length),
+            useApiPrefix == true ? (Constants.API_PATH + relativePath) : relativePath,
             params)
         : Uri.http(
-            BASE_PATH.substring("http://".length),
-            useApiPrefix == true ? (API_PATH + relativePath) : relativePath,
+        Constants.BASE_PATH.substring("http://".length),
+            useApiPrefix == true ? (Constants.API_PATH + relativePath) : relativePath,
             params);
     log('URL: $uri');
 

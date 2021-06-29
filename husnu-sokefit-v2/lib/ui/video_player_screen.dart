@@ -22,7 +22,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     // offers several different constructors to play videos from assets, files,
     // or the internet.
     _controller = VideoPlayerController.network(
-        ApiHelper.BASE_PATH + '/mobile-video/splash.mp4')
+        Constants.BASE_PATH + '/mobile-video/splash.mp4')
       ..initialize().then((_) {
         _controller.play();
         _controller.setLooping(false);

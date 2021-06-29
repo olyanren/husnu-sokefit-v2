@@ -184,8 +184,8 @@ class WodHoursScreen extends BaseUserScreen {
     Navigator.of(context).push(MaterialPageRoute(
         builder: (BuildContext context) => MyWebView(
               title: 'Wod Ekleme',
-              url: ApiHelper.BASE_PATH +
-                  ApiHelper.API_PATH +
+              url: Constants.BASE_PATH +
+                  Constants.API_PATH +
                   '/wods/create-for-web',
             )));
   }
