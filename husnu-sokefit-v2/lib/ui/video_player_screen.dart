@@ -36,7 +36,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
   checkVideo() {
     if (_controller.value.initialized &&
-        _controller.value.position > Duration(seconds: 8)) {
+        _controller.value.position.inSeconds >=
+            _controller.value.duration.inSeconds) {
       goToLogin();
     }
   }

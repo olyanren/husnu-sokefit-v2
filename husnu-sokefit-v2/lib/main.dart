@@ -81,6 +81,6 @@ class MyApp extends StatelessWidget {
   }
 
   whenDoneResult(bool isIntroShowed) {
-    return isIntroShowed ? LoginScreen() : Container();
+    return isIntroShowed ? VideoPlayerScreen() : Container();
   }
 }
