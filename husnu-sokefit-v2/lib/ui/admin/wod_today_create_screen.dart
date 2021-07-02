@@ -55,7 +55,7 @@ class WodTodayCreateScreen extends BaseUserScreen {
 
   @override
   title() {
-    return CustomText('WOD OlUŞTURMA',
+    return CustomText('WOD OLUŞTURMA',
         color: Colors.amber, fontSize: 20, fontWeight: FontWeight.bold);
   }
 
