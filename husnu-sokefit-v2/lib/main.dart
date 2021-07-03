@@ -9,6 +9,7 @@ import 'package:sokefit/ui/login_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'ui/login_screen.dart';
 import 'ui/video_player_screen.dart';
 
 void main() => runApp(MyApp());
